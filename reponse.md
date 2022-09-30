@@ -12,8 +12,14 @@
 - git checkout HEAD~1 index.html
 - Il s’agit du plugin autocomplete
 - La commande ‘git show b30306e502b99aabab256a5d2f68e8d50ba5072a’ permet de voir les fichiers modifiés dans ce commit 
+- git reset 'commit'
 
 ### Exercice 4 :
-- git fetch origin
+- dans le cli, on peut faire : 
+    - touch nom_prenom.txt
+    - git add nom_prenom.txt
+    - git commit -m "ajout de la licence"
+
+- git status
 - git push -u origin gh-pages 
 
